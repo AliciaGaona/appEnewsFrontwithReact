@@ -1,16 +1,22 @@
-﻿# appEnewsFrontwithReact
+﻿# FrontEnd con React
+ 
+Se crea un proyecto basado en react, que consume APIS de ejercicio, tiene la funcionalidad de mostrar en tabla la respuesta de una API, y reazlia el filtrado de la informaci[on dela tabla.
 
-## Instrucciones para inicializar y correr proyecto
+## Instrucciones ⚙️
 
 
-## BackEnd
+## BackEnd 🚀
 
 [proyecto BackEnd](https://github.com/AliciaGaona/appEnews)
 
  ## Tecnologias
 
- ## Bibiotecas/librerias
+ React
+
+ ## Bibiotecas/librerias 🔧
 
  - bootstrap
 
- ## Referencias
+ ## Referencias 🔧
+
+ [React](https://react.dev)
