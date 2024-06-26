@@ -37,7 +37,7 @@ const BuscarComponent = () => {
             dato.name.toLowerCase().includes(buscar.toLocaleLowerCase())      
         )
 
-        //..agregar filtros por todas columnas, automatizarlo
+        //..falta agregar filtros para todas columnas, automatizar
     }
 
     useEffect(() => {
