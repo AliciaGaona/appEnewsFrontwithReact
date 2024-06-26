@@ -53,5 +53,5 @@ Al tratar de consumir APIS de backEnd, el cors me bloquea el acceso, mientras se
 
  Realicé la funcionalidad de consumir API, pasar a tabla y filtrar datos(alcance arealizarlo con una sola columna), y al no poder resolver mi bug del cors de mi Back, realicé el ejercicio con una API pública.
 
- Primeramente empecé a usar Vue para el FrontEnd, pero por problema con biblioteca axios, decidi hacerlo con react para avanzar. [proyecto Vue]([https://github.com/AliciaGaona/appEnews](https://github.com/AliciaGaona/appEnewsFront))
+ Primeramente empecé a usar Vue para el FrontEnd, pero por problema con biblioteca axios, decidi hacerlo con react para avanzar. [proyecto Vue](https://github.com/AliciaGaona/appEnewsFront)
 
