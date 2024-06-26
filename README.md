@@ -3,9 +3,14 @@
 ## Instrucciones para inicializar y correr proyecto
 
 
+## BackEnd
+
+[proyecto BackEnd](https://github.com/AliciaGaona/appEnews)
 
  ## Tecnologias
 
- ## Bibiotecas
+ ## Bibiotecas/librerias
+
+ - bootstrap
 
  ## Referencias
