@@ -12,7 +12,6 @@ Se crea un proyecto basado en react, que consume APIS de ejercicio, tiene la fun
 
 ```
 npm install -g create-react-app
-
 ```
 
 3. Entrar al directorio de nuestro proyecto y lanzar el servidor local de pruebas para React
@@ -20,8 +19,10 @@ npm install -g create-react-app
 ```
 cd my-app
 npm start
+```
 
-```  
+![image](https://github.com/AliciaGaona/appEnewsFrontwithReact/assets/99162884/8ee6f5fe-4e79-4f3e-b824-59615836ed6a)
+
 
 ## BackEnd 🚀
 
