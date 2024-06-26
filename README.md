@@ -39,3 +39,10 @@ npm start
  ## Referencias 🔧
 
  [React](https://react.dev)
+
+
+ ## En proceso, bugs 🛠️🔎
+
+Al tratar de consumir APIS de backEnd, el cors me bloquea el acceso, mientras se utilizo otra api, para probar funcioanlidad de filtrado en tabla, se esta revisando API [proyecto BackEnd](https://github.com/AliciaGaona/appEnews)
+
+
