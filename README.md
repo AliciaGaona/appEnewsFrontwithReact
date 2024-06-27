@@ -31,6 +31,14 @@ npm start
 
 [proyecto BackEnd](https://github.com/AliciaGaona/appEnews)
 
+
+API utilizada
+
+| EndPoint | Tipo | 
+|----------|----------|
+| http://localhost:8000/getAll | get  |
+
+
  ## Tecnologias
 
  React
