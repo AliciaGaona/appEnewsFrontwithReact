@@ -38,6 +38,7 @@ npm start
  ## Bibiotecas/librerias 🔧
 
  - bootstrap
+ - react-search-bar (no se termino de implemetar)
 
  ## Referencias 🔧
 
@@ -46,12 +47,17 @@ npm start
 
  ## En proceso, bugs 🛠️🔎
 
-Al tratar de consumir APIS de backEnd, el cors me bloquea el acceso, mientras se utilizo otra api para probar funcioanlidad de filtrado en tabla, se esta revisando API [proyecto BackEnd](https://github.com/AliciaGaona/appEnews)
-
+Realizar el filtrado de busqueda por todas las columnas de la tabla y no solo por la columna marca
 
  ## Comentarios
 
  Realicé la funcionalidad de consumir API, pasar a tabla y filtrar datos(alcance a realizarlo con busqueda en una sola columna).
+
+![image](https://github.com/AliciaGaona/appEnewsFrontwithReact/assets/99162884/c278c4f2-436e-4e8d-899a-d97c4929949d)
+
+
+![image](https://github.com/AliciaGaona/appEnewsFrontwithReact/assets/99162884/a405ab4b-2e5a-435b-a236-1beea8aade73)
+
 
  Primeramente empecé a usar Vue para el FrontEnd, pero por problema con biblioteca axios, decidi hacerlo con react para avanzar. [proyecto Vue](https://github.com/AliciaGaona/appEnewsFront)
 
