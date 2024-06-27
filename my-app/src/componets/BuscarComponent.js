@@ -1,7 +1,6 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
 
-
 const BuscarComponent = () => {
     //configurar los hooks de usestate
     const [users, setUsers] = useState([])
@@ -9,8 +8,8 @@ const BuscarComponent = () => {
     //hook de busqueda
     const [buscar, setBuscar] = useState('') //variable de estado= buscar, funcion que la actualizara setBuscar
 
-    //funcion que trae datos de la API
-    const url = 'https://jsonplaceholder.typicode.com/users'
+    //funcion que trae datos de la API, el conjunto de los tres catalogos compartidos
+    const url = 'http://localhost:8000/getAll'
 
     const showData = async () => {
         const response = await fetch(url)
@@ -34,7 +33,7 @@ const BuscarComponent = () => {
     }else{
         //filtra datos de primer get, por el name
         results = users.filter((dato)=>
-            dato.name.toLowerCase().includes(buscar.toLocaleLowerCase())      
+            dato.marca.toLowerCase().includes(buscar.toLocaleLowerCase())      
         )
 
         //..falta agregar filtros para todas columnas, automatizar
@@ -51,8 +50,23 @@ const BuscarComponent = () => {
             <table className="table">
                 <thead>
                     <tr>
-                        <th scope="col">Name</th>
-                        <th scope="col">User Name</th>
+                        <th scope="col">marca</th>
+                        <th scope="col">medio</th>
+                        <th scope="col">fecha</th>                       
+                        <th scope="col">producto</th>
+                        <th scope="col">version</th>
+                        <th scope="col">programa</th>
+                        <th scope="col">hora</th>
+                        <th scope="col">vehiculo</th>
+                        <th scope="col">anunciante</th>
+                        <th scope="col">tema</th>
+                        <th scope="col">id_categoryCopys</th>
+                        <th scope="col">processing</th>
+                        <th scope="col">file</th>
+                        <th scope="col">medioPage</th>
+                        <th scope="col">spots</th>
+                        <th scope="col">src_link</th>
+
                     </tr>
                 </thead>
                 <tbody>
@@ -60,8 +74,22 @@ const BuscarComponent = () => {
                         results.map((user) => (
                             <tr key={user.id}>
                                 {/* interpolamos data con la variable de usestate*/}
-                                <td>{user.name}</td>
-                                <td>{user.username}</td>
+                                <td>{user.marca}</td>
+                                <td>{user.medio}</td>
+                                <td>{user.fecha}</td>                          
+                                <td>{user.producto}</td>
+                                <td>{user.version}</td>
+                                <td>{user.programa}</td>
+                                <td>{user.hora}</td>
+                                <td>{user.vehiculo}</td>
+                                <td>{user.anunciante}</td>
+                                <td>{user.tema}</td>
+                                <td>{user.id_categoryCopys}</td>
+                                <td>{user.processing}</td>
+                                <td>{user.file}</td>
+                                <td>{user.medioPage}</td>
+                                <td>{user.spots}</td>
+                                <td>{user.src_link}</td>
                             </tr>
                         ))
                     }
