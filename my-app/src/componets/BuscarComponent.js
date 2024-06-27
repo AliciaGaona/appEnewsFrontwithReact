@@ -1,7 +1,6 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
 
-
 const BuscarComponent = () => {
     //configurar los hooks de usestate
     const [users, setUsers] = useState([])
@@ -31,16 +30,22 @@ const BuscarComponent = () => {
 
     } else {
         //filtra datos de primer get, por el name
-        results = users.filter((dato) =>
-
-            dato.marca.toLowerCase().includes(buscar.toLocaleLowerCase()
-        ))
-
+        results = users.filter((dato) =>dato.marca.toLowerCase().includes(buscar.toLocaleLowerCase()))
+        //results = users.filter((dato) =>dato.medio.toLowerCase().includes(buscar.toLocaleLowerCase())) 
+        // results = users.filter((dato) =>dato.medio.toLowerCase().includes(buscar.toLocaleLowerCase()))
+        // results = users.filter((dato) =>dato.fecha.toLowerCase().includes(buscar.toLocaleLowerCase()))
+        // results = users.filter((dato) =>dato.producto.toLowerCase().includes(buscar.toLocaleLowerCase()))
+        // results = users.filter((dato) =>dato.version.toLowerCase().includes(buscar.toLocaleLowerCase()))
+        // results = users.filter((dato) =>dato.programa.toLowerCase().includes(buscar.toLocaleLowerCase()))
+        // results = users.filter((dato) =>dato.hora.toLowerCase().includes(buscar.toLocaleLowerCase()))
+        // results = users.filter((dato) =>dato.vehiculo.toLowerCase().includes(buscar.toLocaleLowerCase()))
+        // results = users.filter((dato) =>dato.anunciante.toLowerCase().includes(buscar.toLocaleLowerCase()))
+        // results = users.filter((dato) =>dato.tema.toLowerCase().includes(buscar.toLocaleLowerCase()))
+        // results = users.filter((dato) =>dato.id_categoryCopys.toLowerCase().includes(buscar.toLocaleLowerCase()))
+        // results = users.filter((dato) =>dato.processing.toLowerCase().includes(buscar.toLocaleLowerCase()))
+        // results = users.filter((dato) =>dato.file.toLowerCase().includes(buscar.toLocaleLowerCase()))
         //..falta agregar filtros para todas columnas, automatizar
     }
-
-
-
 
     useEffect(() => {
         showData()
